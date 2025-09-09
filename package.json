@@ -1,0 +1,24 @@
+{
+  "name": "preact-vs-react-benchmark",
+  "version": "1.0.0",
+  "description": "Performance benchmark comparing Preact and React",
+  "private": true,
+  "workspaces": [
+    "preact-app",
+    "react-app"
+  ],
+  "scripts": {
+    "dev:preact": "cd preact-app && npm run dev",
+    "dev:react": "cd react-app && npm run dev",
+    "build:preact": "cd preact-app && npm run build",
+    "build:react": "cd react-app && npm run build",
+    "benchmark": "node benchmark/main.js",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up",
+    "docker:down": "docker-compose down"
+  },
+  "devDependencies": {
+    "lighthouse": "^11.7.0",
+    "puppeteer": "^21.11.0"
+  }
+}

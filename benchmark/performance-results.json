@@ -1,0 +1,510 @@
+{
+  "react": {
+    "bundleSize": {
+      "totalSize": 237304,
+      "jsSize": 230364,
+      "cssSize": 6940,
+      "resourceCount": 2,
+      "resources": [
+        {
+          "name": "/assets/index-BClXDtLs.js",
+          "size": 230364,
+          "type": "script",
+          "metrics": {
+            "ttfb": 9.36850000000004,
+            "totalTime": 10.70900000000006,
+            "downloadTime": 1.34050000000002,
+            "responseTime": 9.36850000000004,
+            "contentLength": 230364,
+            "transferSize": 230364,
+            "compressionRatio": 1,
+            "server": "nginx/1.29.1",
+            "connection": "keep-alive",
+            "keepAlive": true,
+            "httpVersion": "1.1",
+            "memoryDelta": {
+              "rss": 32768,
+              "heapUsed": 24376,
+              "heapTotal": 0,
+              "external": 14011
+            }
+          }
+        },
+        {
+          "name": "/assets/index-b_XbMlAm.css",
+          "size": 6940,
+          "type": "stylesheet",
+          "metrics": {
+            "ttfb": 3.452874999999949,
+            "totalTime": 3.550166999999874,
+            "downloadTime": 0.09729199999992488,
+            "responseTime": 3.452874999999949,
+            "contentLength": 6940,
+            "transferSize": 6940,
+            "compressionRatio": 1,
+            "server": "nginx/1.29.1",
+            "connection": "keep-alive",
+            "keepAlive": true,
+            "httpVersion": "1.1",
+            "memoryDelta": {
+              "rss": 81920,
+              "heapUsed": 24040,
+              "heapTotal": 0,
+              "external": 7258
+            }
+          }
+        }
+      ],
+      "htmlMetrics": {
+        "ttfb": 6.569167000000107,
+        "totalTime": 6.654209000000037,
+        "downloadTime": 0.08504199999993034,
+        "responseTime": 6.569167000000107,
+        "contentLength": 465,
+        "transferSize": 465,
+        "compressionRatio": 1,
+        "server": "nginx/1.29.1",
+        "connection": "keep-alive",
+        "keepAlive": true,
+        "httpVersion": "1.1",
+        "memoryDelta": {
+          "rss": 81920,
+          "heapUsed": 472432,
+          "heapTotal": 0,
+          "external": 775
+        }
+      },
+      "resourceTimings": [
+        {
+          "name": "/assets/index-b_XbMlAm.css",
+          "startTime": 3.550166999999874,
+          "duration": 3.550166999999874,
+          "size": 6940,
+          "ttfb": 3.452874999999949
+        },
+        {
+          "name": "/assets/index-BClXDtLs.js",
+          "startTime": 10.70900000000006,
+          "duration": 10.70900000000006,
+          "size": 230364,
+          "ttfb": 9.36850000000004
+        }
+      ],
+      "waterfallMetrics": {
+        "totalLoadTime": 17.867833000000246,
+        "parallelLoadTime": 8.933916500000123,
+        "sequentialLoadTime": 14.259166999999934,
+        "maxConcurrent": 2,
+        "resourceCount": 2
+      },
+      "performanceMetrics": {
+        "htmlTTFB": 6.569167000000107,
+        "htmlTotalTime": 6.654209000000037,
+        "avgResourceTTFB": 6.4106874999999945,
+        "maxResourceTTFB": 9.36850000000004,
+        "minResourceTTFB": 3.452874999999949,
+        "avgResourceLoadTime": 7.129583499999967,
+        "maxResourceLoadTime": 10.70900000000006,
+        "minResourceLoadTime": 3.550166999999874,
+        "totalResourceSize": 237304,
+        "resourceCount": 2,
+        "firstContentfulPaint": 10,
+        "largestContentfulPaint": 17,
+        "speedIndex": 14,
+        "totalBlockingTime": 6,
+        "timeToInteractive": 17,
+        "cumulativeLayoutShift": 0
+      }
+    },
+    "loadTimes": {
+      "averageLoadTime": 1.6630312500000741,
+      "averageTTFB": 1.585010250000039,
+      "maxLoadTime": 1.7395420000000286,
+      "minLoadTime": 1.5844160000001466,
+      "maxTTFB": 1.6682499999999436,
+      "minTTFB": 1.5162910000001375,
+      "totalSize": 1860,
+      "measurements": [
+        {
+          "page": "/",
+          "loadTime": 1.7188340000000153,
+          "ttfb": 1.6225420000000668,
+          "size": 465,
+          "statusCode": 200,
+          "metrics": {
+            "ttfb": 1.6225420000000668,
+            "totalTime": 1.7188340000000153,
+            "downloadTime": 0.09629199999994853,
+            "responseTime": 1.6225420000000668,
+            "contentLength": 465,
+            "transferSize": 465,
+            "compressionRatio": 1,
+            "server": "nginx/1.29.1",
+            "connection": "keep-alive",
+            "keepAlive": true,
+            "httpVersion": "1.1",
+            "memoryDelta": {
+              "rss": 65536,
+              "heapUsed": 32608,
+              "heapTotal": 0,
+              "external": 775
+            }
+          }
+        },
+        {
+          "page": "/dashboard",
+          "loadTime": 1.609333000000106,
+          "ttfb": 1.5329580000000078,
+          "size": 465,
+          "statusCode": 200,
+          "metrics": {
+            "ttfb": 1.5329580000000078,
+            "totalTime": 1.609333000000106,
+            "downloadTime": 0.07637500000009823,
+            "responseTime": 1.5329580000000078,
+            "contentLength": 465,
+            "transferSize": 465,
+            "compressionRatio": 1,
+            "server": "nginx/1.29.1",
+            "connection": "keep-alive",
+            "keepAlive": true,
+            "httpVersion": "1.1",
+            "memoryDelta": {
+              "rss": 98304,
+              "heapUsed": 25264,
+              "heapTotal": 0,
+              "external": 775
+            }
+          }
+        },
+        {
+          "page": "/profile",
+          "loadTime": 1.5844160000001466,
+          "ttfb": 1.5162910000001375,
+          "size": 465,
+          "statusCode": 200,
+          "metrics": {
+            "ttfb": 1.5162910000001375,
+            "totalTime": 1.5844160000001466,
+            "downloadTime": 0.0681250000000091,
+            "responseTime": 1.5162910000001375,
+            "contentLength": 465,
+            "transferSize": 465,
+            "compressionRatio": 1,
+            "server": "nginx/1.29.1",
+            "connection": "keep-alive",
+            "keepAlive": true,
+            "httpVersion": "1.1",
+            "memoryDelta": {
+              "rss": 65536,
+              "heapUsed": 52264,
+              "heapTotal": 0,
+              "external": 775
+            }
+          }
+        },
+        {
+          "page": "/settings",
+          "loadTime": 1.7395420000000286,
+          "ttfb": 1.6682499999999436,
+          "size": 465,
+          "statusCode": 200,
+          "metrics": {
+            "ttfb": 1.6682499999999436,
+            "totalTime": 1.7395420000000286,
+            "downloadTime": 0.07129200000008495,
+            "responseTime": 1.6682499999999436,
+            "contentLength": 465,
+            "transferSize": 465,
+            "compressionRatio": 1,
+            "server": "nginx/1.29.1",
+            "connection": "keep-alive",
+            "keepAlive": true,
+            "httpVersion": "1.1",
+            "memoryDelta": {
+              "rss": 49152,
+              "heapUsed": 96408,
+              "heapTotal": 0,
+              "external": 775
+            }
+          }
+        }
+      ]
+    },
+    "memory": {
+      "totalMemoryDelta": 48416,
+      "jsMemoryDelta": 24376,
+      "cssMemoryDelta": 24040,
+      "averageMemoryDelta": 24208,
+      "maxMemoryDelta": 24376,
+      "minMemoryDelta": 24040,
+      "measurements": [
+        {
+          "name": "/assets/index-BClXDtLs.js",
+          "type": "script",
+          "memoryDelta": 24376
+        },
+        {
+          "name": "/assets/index-b_XbMlAm.css",
+          "type": "stylesheet",
+          "memoryDelta": 24040
+        }
+      ]
+    }
+  },
+  "preact": {
+    "bundleSize": {
+      "totalSize": 35850,
+      "jsSize": 28910,
+      "cssSize": 6940,
+      "resourceCount": 2,
+      "resources": [
+        {
+          "name": "/assets/index-4zHFgCOy.js",
+          "size": 28910,
+          "type": "script",
+          "metrics": {
+            "ttfb": 3.329834000000119,
+            "totalTime": 3.438667000000123,
+            "downloadTime": 0.10883300000000418,
+            "responseTime": 3.329834000000119,
+            "contentLength": 28910,
+            "transferSize": 28910,
+            "compressionRatio": 1,
+            "server": "nginx/1.29.1",
+            "connection": "keep-alive",
+            "keepAlive": true,
+            "httpVersion": "1.1",
+            "memoryDelta": {
+              "rss": 16384,
+              "heapUsed": 23616,
+              "heapTotal": 0,
+              "external": 29242
+            }
+          }
+        },
+        {
+          "name": "/assets/index-BEHJURJU.css",
+          "size": 6940,
+          "type": "stylesheet",
+          "metrics": {
+            "ttfb": 2.6001659999999447,
+            "totalTime": 2.6992499999998927,
+            "downloadTime": 0.09908399999994799,
+            "responseTime": 2.6001659999999447,
+            "contentLength": 6940,
+            "transferSize": 6940,
+            "compressionRatio": 1,
+            "server": "nginx/1.29.1",
+            "connection": "keep-alive",
+            "keepAlive": true,
+            "httpVersion": "1.1",
+            "memoryDelta": {
+              "rss": 16384,
+              "heapUsed": 28912,
+              "heapTotal": 0,
+              "external": 7258
+            }
+          }
+        }
+      ],
+      "htmlMetrics": {
+        "ttfb": 2.1582919999998467,
+        "totalTime": 2.2469169999999394,
+        "downloadTime": 0.08862500000009277,
+        "responseTime": 2.1582919999998467,
+        "contentLength": 464,
+        "transferSize": 464,
+        "compressionRatio": 1,
+        "server": "nginx/1.29.1",
+        "connection": "keep-alive",
+        "keepAlive": true,
+        "httpVersion": "1.1",
+        "memoryDelta": {
+          "rss": 65536,
+          "heapUsed": -307792,
+          "heapTotal": 0,
+          "external": 774
+        }
+      },
+      "resourceTimings": [
+        {
+          "name": "/assets/index-BEHJURJU.css",
+          "startTime": 2.6992499999998927,
+          "duration": 2.6992499999998927,
+          "size": 6940,
+          "ttfb": 2.6001659999999447
+        },
+        {
+          "name": "/assets/index-4zHFgCOy.js",
+          "startTime": 3.438667000000123,
+          "duration": 3.438667000000123,
+          "size": 28910,
+          "ttfb": 3.329834000000119
+        }
+      ],
+      "waterfallMetrics": {
+        "totalLoadTime": 4.178084000000354,
+        "parallelLoadTime": 3.068958500000008,
+        "sequentialLoadTime": 6.137917000000016,
+        "maxConcurrent": 2,
+        "resourceCount": 2
+      },
+      "performanceMetrics": {
+        "htmlTTFB": 2.1582919999998467,
+        "htmlTotalTime": 2.2469169999999394,
+        "avgResourceTTFB": 2.965000000000032,
+        "maxResourceTTFB": 3.329834000000119,
+        "minResourceTTFB": 2.6001659999999447,
+        "avgResourceLoadTime": 3.068958500000008,
+        "maxResourceLoadTime": 3.438667000000123,
+        "minResourceLoadTime": 2.6992499999998927,
+        "totalResourceSize": 35850,
+        "resourceCount": 2,
+        "firstContentfulPaint": 5,
+        "largestContentfulPaint": 6,
+        "speedIndex": 5,
+        "totalBlockingTime": 1,
+        "timeToInteractive": 6,
+        "cumulativeLayoutShift": 0
+      }
+    },
+    "loadTimes": {
+      "averageLoadTime": 1.5073332499999879,
+      "averageTTFB": 1.4370102500000712,
+      "maxLoadTime": 2.042833999999857,
+      "minLoadTime": 1.1187910000001011,
+      "maxTTFB": 1.9432919999999285,
+      "minTTFB": 1.069541000000072,
+      "totalSize": 1856,
+      "measurements": [
+        {
+          "page": "/",
+          "loadTime": 2.042833999999857,
+          "ttfb": 1.9432919999999285,
+          "size": 464,
+          "statusCode": 200,
+          "metrics": {
+            "ttfb": 1.9432919999999285,
+            "totalTime": 2.042833999999857,
+            "downloadTime": 0.09954199999992852,
+            "responseTime": 1.9432919999999285,
+            "contentLength": 464,
+            "transferSize": 464,
+            "compressionRatio": 1,
+            "server": "nginx/1.29.1",
+            "connection": "keep-alive",
+            "keepAlive": true,
+            "httpVersion": "1.1",
+            "memoryDelta": {
+              "rss": 49152,
+              "heapUsed": 22552,
+              "heapTotal": 0,
+              "external": 774
+            }
+          }
+        },
+        {
+          "page": "/dashboard",
+          "loadTime": 1.4540830000000824,
+          "ttfb": 1.390833000000157,
+          "size": 464,
+          "statusCode": 200,
+          "metrics": {
+            "ttfb": 1.390833000000157,
+            "totalTime": 1.4540830000000824,
+            "downloadTime": 0.06324999999992542,
+            "responseTime": 1.390833000000157,
+            "contentLength": 464,
+            "transferSize": 464,
+            "compressionRatio": 1,
+            "server": "nginx/1.29.1",
+            "connection": "keep-alive",
+            "keepAlive": true,
+            "httpVersion": "1.1",
+            "memoryDelta": {
+              "rss": 49152,
+              "heapUsed": -775520,
+              "heapTotal": 0,
+              "external": -410742
+            }
+          }
+        },
+        {
+          "page": "/profile",
+          "loadTime": 1.1187910000001011,
+          "ttfb": 1.069541000000072,
+          "size": 464,
+          "statusCode": 200,
+          "metrics": {
+            "ttfb": 1.069541000000072,
+            "totalTime": 1.1187910000001011,
+            "downloadTime": 0.049250000000029104,
+            "responseTime": 1.069541000000072,
+            "contentLength": 464,
+            "transferSize": 464,
+            "compressionRatio": 1,
+            "server": "nginx/1.29.1",
+            "connection": "keep-alive",
+            "keepAlive": true,
+            "httpVersion": "1.1",
+            "memoryDelta": {
+              "rss": 0,
+              "heapUsed": 22200,
+              "heapTotal": 0,
+              "external": 774
+            }
+          }
+        },
+        {
+          "page": "/settings",
+          "loadTime": 1.4136249999999109,
+          "ttfb": 1.3443750000001273,
+          "size": 464,
+          "statusCode": 200,
+          "metrics": {
+            "ttfb": 1.3443750000001273,
+            "totalTime": 1.4136249999999109,
+            "downloadTime": 0.06924999999978354,
+            "responseTime": 1.3443750000001273,
+            "contentLength": 464,
+            "transferSize": 464,
+            "compressionRatio": 1,
+            "server": "nginx/1.29.1",
+            "connection": "keep-alive",
+            "keepAlive": true,
+            "httpVersion": "1.1",
+            "memoryDelta": {
+              "rss": 16384,
+              "heapUsed": 29176,
+              "heapTotal": 0,
+              "external": 774
+            }
+          }
+        }
+      ]
+    },
+    "memory": {
+      "totalMemoryDelta": 52528,
+      "jsMemoryDelta": 23616,
+      "cssMemoryDelta": 28912,
+      "averageMemoryDelta": 26264,
+      "maxMemoryDelta": 28912,
+      "minMemoryDelta": 23616,
+      "measurements": [
+        {
+          "name": "/assets/index-4zHFgCOy.js",
+          "type": "script",
+          "memoryDelta": 23616
+        },
+        {
+          "name": "/assets/index-BEHJURJU.css",
+          "type": "stylesheet",
+          "memoryDelta": 28912
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-09-09T13:18:59.151Z",
+  "summary": {}
+}
