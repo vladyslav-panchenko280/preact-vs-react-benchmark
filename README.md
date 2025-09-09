@@ -58,7 +58,7 @@ preact-vs-react-benchmark/
 
 1. **Clone and setup**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/vladyslav-panchenko280/preact-vs-react-benchmark.git
    cd preact-vs-react-benchmark
    npm install
    ```
