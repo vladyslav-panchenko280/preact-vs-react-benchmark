@@ -341,14 +341,6 @@ Our benchmark uses **exact HTTP measurements** rather than browser-based tools:
 - [React Learn](https://react.dev/learn) - Interactive React tutorial
 - [React API Reference](https://react.dev/reference/react) - Complete API documentatio
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run benchmarks to ensure no performance regression
-5. Submit a pull request
-
 ## 📄 License
 
 MIT License - see LICENSE file for details.
